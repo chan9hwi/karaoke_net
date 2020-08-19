@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+}
+#logo {
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 50px;
+  background-image: url("../images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 122.4px;
+}
+#mainvisual {
+  vertical-align: middle;
+  margin: auto;
+  background-image: url("../images/REMOTEDRINKING.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+
+.calender {
+  background-color: brown;
+  color: blanchedalmond;
+  text-align: center;
+}
+.participate {
+  background-color: white;
+  color: red;
+  text-align: center;
+}
