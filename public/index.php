@@ -24,6 +24,7 @@
 <body>
   <div id="logo"></div>
   <div id="mainvisual"></div>
+  <?php echo '<p>Hello World</p>'; ?> 
 </body>
 
 </html>
