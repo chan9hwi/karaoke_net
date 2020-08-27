@@ -26,7 +26,7 @@
   <div id="mainvisual"></div>
   <?php
       require('config.php');
-      echo '<p>'$name'<p>';//佐藤
+      echo '<p>'$room'<p>';//佐藤
   ?>
 </body>
 
