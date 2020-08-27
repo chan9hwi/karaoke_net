@@ -24,15 +24,17 @@
 <body>
   <div id="logo"></div>
   <div id="mainvisual"></div>
-  <a href="
-  <?php
-  // 外部ファイルを読み込む
-  require_once(dirname(__FILE__).'/config.php');
-  
-  // 外部ファイルで定義した定数を出力
-  echo ROOM;
-  ?>
-  ">
+  <div id="link">
+    <a href="
+      <?php
+      // 外部ファイルを読み込む
+      require_once(dirname(__FILE__).'/config.php');
+      // 外部ファイルで定義した定数を出力
+      echo ROOM;
+      ?>
+      ">
+    </a>
+  </div>
 </body>
 
 </html>
