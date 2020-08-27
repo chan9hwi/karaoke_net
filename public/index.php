@@ -35,7 +35,7 @@
     ">ENTER</a>
   </div>
   <div id="contact">
-    <a href="
+    <a href="tel:
       <?php
         // 外部ファイルを読み込む
         require_once(dirname(__FILE__).'/config.php');

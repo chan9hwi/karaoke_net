@@ -27,10 +27,11 @@ canvas {
 }
 #link {
   text-align: center;
-  color: red;
 }
 #contact {
   text-align: center;
+}
+a {
   color: white;
 }
 
