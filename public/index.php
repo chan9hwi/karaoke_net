@@ -35,7 +35,6 @@
     ">ENTER</a>
   </div>
   <div id="contact">
-    <p>電話する</p>
     <a href="
       <?php
         // 外部ファイルを読み込む
@@ -43,14 +42,7 @@
         // 外部ファイルで定義した定数を出力
         echo CONTACT;
       ?>
-    ">
-      <?php
-        // 外部ファイルを読み込む
-        require_once(dirname(__FILE__).'/config.php');
-        // 外部ファイルで定義した定数を出力
-        echo CONTACT;
-      ?>
-    </a>
+    ">電話する</a>
   </div>
 </body>
 
