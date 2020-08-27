@@ -26,8 +26,11 @@
   <div id="mainvisual"></div>
   <p>
   <?php
-    // 外部ファイルで定義した定数を出力
-    require_once(room . './config.php');
+  // 外部ファイルを読み込む
+  require_once(dirname(__FILE__).'/config.php');
+  
+  // 外部ファイルで定義した定数を出力
+  echo ROOM;
   ?>
 
   <p>
