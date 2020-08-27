@@ -27,7 +27,7 @@
   <p>
   <?php
   // 外部ファイルを読み込む
-  require_once(dirname(__FILE__).'/config.php');
+  require_once(dirname(__FILE__).'config.php');
   
   // 外部ファイルで定義した定数を出力
   echo ROOM;
