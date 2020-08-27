@@ -24,7 +24,11 @@
 <body>
   <div id="logo"></div>
   <div id="mainvisual"></div>
-  <?php echo '<p>Hello World</p>'; ?> 
+  <?php echo '<p>Hello World</p>'; ?>
+  <?php
+      require('config.php');
+      echo '<p>'$name'<p>';//佐藤
+  ?>
 </body>
 
 </html>
