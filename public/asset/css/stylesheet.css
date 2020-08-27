@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #0ENTER;
+  background-color: #00f;
 }
 canvas {
   width: 100%;
@@ -32,6 +32,9 @@ canvas {
   text-align: center;
 }
 a {
+  color: white;
+}
+a:visited {
   color: white;
 }
 
