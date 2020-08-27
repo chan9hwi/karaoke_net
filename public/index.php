@@ -24,10 +24,12 @@
 <body>
   <div id="logo"></div>
   <div id="mainvisual"></div>
+  <p>
   <?php
       require('config.php');
-      echo '<p>'$room'<p>';//佐藤
+      echo $room;
   ?>
+  <p>
 </body>
 
 </html>
