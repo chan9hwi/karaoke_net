@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #0000ff;
+  background-color: #0ENTER;
 }
 canvas {
   width: 100%;
@@ -24,6 +24,14 @@ canvas {
   background-repeat: no-repeat;
   width: 400px;
   height: 400px;
+}
+#link {
+  text-align: center;
+  color: red;
+}
+#link {
+  text-align: center;
+  color: white;
 }
 
 .calender {
