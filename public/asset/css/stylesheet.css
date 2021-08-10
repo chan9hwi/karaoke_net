@@ -25,10 +25,7 @@ canvas {
   width: 400px;
   height: 400px;
 }
-#link {
-  text-align: center;
-}
-#contact {
+#link,#evacuation,#contact {
   text-align: center;
 }
 a {
