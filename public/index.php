@@ -34,6 +34,16 @@
       ?>
     ">ENTER</a>
   </div>
+  <div id="evacuation">
+    <a href="
+      <?php
+      // 外部ファイルを読み込む
+      require_once(dirname(__FILE__).'/config.php');
+      // 外部ファイルで定義した定数を出力
+      echo WAITINGROOM;
+      ?>
+    ">避難所（スマホアプリのみ）</a>
+  </div>
   <div id="contact">
     <a href="tel:
       <?php
