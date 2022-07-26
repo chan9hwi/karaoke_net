@@ -40,8 +40,10 @@
 }
 
 	</style>
-  </head>
+</head>
 
+<link href="./asset/css/stylesheet.css" rel="stylesheet" type="text/css" />
+<script src="./asset/javascript/index.js"></script>
 
 <body>
   <div id="logo"></div>
