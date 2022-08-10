@@ -10,7 +10,7 @@ canvas {
   vertical-align: middle;
   margin: auto;
   margin-top: 50px;
-  background-image: url("../images/logo.png");
+  background-image: url("../../images/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
@@ -19,7 +19,7 @@ canvas {
 #mainvisual {
   vertical-align: middle;
   margin: auto;
-  background-image: url("../images/REMOTEDRINKING.png");
+  background-image: url("../../images/mainvisual.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 400px;
