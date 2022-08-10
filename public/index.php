@@ -57,12 +57,12 @@
     </div>
     <div id="message">
       <a href="./video.php?url=talk" class="banners">
-        <img src="./images/banner00.svg" alt="第０回ライトニングトーク" srcset="">
+        <img src="./images/banner00.svg" alt="第１回ライトニングトーク" srcset="">
       </a>
-      <div class="time"><p>本日(7月22日です！)21時くらいから</p></div>
+      <div class="time"><p>次回は８月２６日（金）21時くらいから</p></div>
       <!-- <iframe src="https://xn--u9jj8904a.xn--kckbt6t.net/" frameborder="0"></iframe> -->
     </div>
-    <a href="https://forms.gle/wEkehkHujGKNgkrZ7">
+    <a href="https://forms.gle/bCbfEsYWmqJxrb8b9">
         <blink><p style="color:#fff;font-waight:bold;font-size:3em;">アンケート</p></blink>
       </a>
   </div>
