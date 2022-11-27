@@ -39,6 +39,14 @@
   font-size: larger;
 }
 
+#message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
 	</style>
 </head>
 
@@ -57,12 +65,12 @@
     </div>
     <div id="message">
       <a href="./video.php?url=talk" class="banners">
-        <img src="./images/banner00.svg" alt="第１回ライトニングトーク" srcset="">
+        <img src="./images/banner00.svg" alt="ライトニングトーク" srcset="">
       </a>
-      <div class="time"><p>次回は９月３０日（金）21時くらいから</p></div>
+      <div class="time"><p>次回は１２月２３日（金）19時半くらいから（10時終了予定）</p></div>
       <!-- <iframe src="https://xn--u9jj8904a.xn--kckbt6t.net/" frameborder="0"></iframe> -->
     </div>
-    <a href="https://forms.gle/ycgb7dSm1Vk11y848">
+    <a href="https://forms.gle/ctp9MFRXRNVW82Zt9">
         <blink><p style="color:#fff;font-waight:bold;font-size:3em;">アンケート</p></blink>
       </a>
   </div>
@@ -72,7 +80,6 @@
   <div id="devlink">
     <a href="https://changhwi.notion.site/LIGHTNINGTALK-8ab3203876e74c77a5f391cba881705a">開発リソース的なもの</a>
   </div>
-<p>ID: changhwi/PW: xunwug-Ceqpan-pihtu1</p>
 </body>
 
 </html>
