@@ -64,6 +64,9 @@
       </form>
     </div>
     <div id="message">
+      <a href="./adventcalender22.html" class="banners">
+        <img src="./images/banner00.png" alt="advent calender" srcset="">
+      </a>
       <a href="./video.php?url=talk" class="banners">
         <img src="./images/banner00.svg" alt="ライトニングトーク" srcset="">
       </a>
