@@ -64,7 +64,7 @@
       </form>
     </div>
     <div id="message">
-      <a href="./adventcalender22.html" class="banners">
+      <a href="./adventcalender22.html" class="banners" style="margin-bottom: 10px;">
         <img src="./images/banner00.png" alt="advent calender" srcset="">
       </a>
       <a href="./video.php?url=talk" class="banners">
