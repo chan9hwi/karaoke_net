@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>なんでもADVENT CALENDER</title>
+    <style>
+        body {
+            background-color: #ff0000;
+            margin: 0;
+            padding: 0;
+        }
+
+        #particles-js {
+            position: fixed;
+            /*描画固定*/
+            z-index: -1;
+            /*描画を一番下に*/
+            width: 100vw;
+            height: 100%;
+            /* background-color: #070A31; */
+            /*背景色*/
+        }
+
+        #wrapper {
+            position: relative;
+            /*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+            z-index: 1;
+            /*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+            width: 100vw;
+            height: 100%;
+            overflow: auto;
+        }
+
+        canvas {
+            position: fixed;
+            /*描画固定*/
+            z-index: -1;
+            /*描画を一番下に*/
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgba(255, 255, 255, 0);
+            background-image: url("./images/advent.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            height: 200px;
+            filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+        }
+
+        h2 {
+            color: #fff;
+            font-family: sans-serif;
+            background-color: green;
+            border: 5px solid #fff;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        div.exp {
+            color: rgb(0, 0, 0);
+            font-family: sans-serif;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px 20px 30px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+
+        div#contact {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="particles-js">
+        <div id="wrapper">
+            <h1>開運！なんでもADVENT CALENDER</h1>
+            <h2>これはなに？</h2>
+            <div class="exp">
+                <p><a href="https://qiita.com/advent-calendar/2022/everything" target="_blank">なんでもADVENT
+                        CALENDER</a>は、なんでもいいから毎日だれかが何かを書くという、なんでもないアドベントカレンダーです。</p>
+            </div>
+
+            <h2>なんでもいいの？</h2>
+            <div class="exp">
+                <p>なんでもいいのです。なんでもいいから毎日何かを書くという、なんでもないアドベントカレンダーです。</p>
+                <p>コンプライアンスだけ気をつけて。</p>
+            </div>
+
+            <h2>なんで？</h2>
+            <div class="exp">
+                <p>エンジニアならアウトプットするだろ？そうだろ？</p>
+            </div>
+
+            <h2>どうやって書くの？</h2>
+            <div class="exp">
+                <h3>用意するもの</h3>
+                <ul>
+                    <li>Qiitaアカウント</li>
+                    <li>ネタ</li>
+                </ul>
+
+                <h3>手順</h3>
+                <ol>
+                    <li><a href="https://qiita.com/signup?redirectTo=%2F" target="_blank">Qiitaアカウントを作成</a>する</li>
+                    <li>ネタを考える</li>
+                    <li><a
+                            href="https://qiita.com/advent-calendar/2022/everything">なんでもアドベントカレンダー</a>のカレンダーで参加する日にちを登録する
+                    </li>
+                    <li>ネタを書く</li>
+                    <li>Qiitaに投稿する</li>
+                </ol>
+            </div>
+
+            <h2>参考</h2>
+            <div class="exp">
+                <Ul>
+                    <li><a href="https://help.qiita.com/ja/articles/qiita-community-guideline" target="_blank"
+                            rel="noopener noreferrer">コミュニティガイドライン | Qiita ヘルプ</a></li>
+                    <li><a href="https://aws.amazon.com/jp/builders-flash/202202/learn-output-importance/?awsf.filter-name=*all"
+                            target="_blank" rel="noopener noreferrer">アウトプットの大切さをエンジニアに聞いてみた。 - 変化を求めるデベロッパーを応援するウェブマガジン
+                            |
+                            AWS</a>
+                    </li>
+                </Ul>
+            </div>
+
+            <div class="card">
+                <p>この記事は下記のリポジトリで管理しています。</p>
+                <p>PR歓迎です。</p>
+                <a href="https://github.com/chan9hwi/karaoke_net">chan9hwi/karaoke_net</a>
+            </div>
+
+
+            <div id="contact">
+                <a href="https://lin.ee/qfnCAXm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
+                        alt="友だち追加" height="36" border="0"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 50,//この数値を変更すると雪の数が増減できる
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "image",//形状は画像を指定
+                    "stroke": {
+                        "width": 3,
+                        "color": "#fff"
+                    },
+                    "image": {
+                        "src": "images/snow.png",//【重要】画像を指定！雪の画像を設定してください。
+                        "width": 120,
+                        "height": 120
+                    }
+                },
+                "opacity": {
+                    "value": 0.7,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 20,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,//この数値を小さくするとゆっくりな動きになる
+                    "direction": "bottom",//下に向かって落ちる
+                    "random": true,//動きはランダム
+                    "straight": false,//動きをとどめない
+                    "out_mode": "out",//画面の外に出るように描写
+                    "bounce": false,//跳ね返りなし
+                    "attract": {
+                        "enable": true,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                    },
+                    "onclick": {
+                        "enable": false,
+                    },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+</body>
+
+</html>
