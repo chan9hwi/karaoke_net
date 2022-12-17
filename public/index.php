@@ -67,6 +67,9 @@
       <a href="./adventcalender22.html" class="banners" style="margin-bottom: 10px;">
         <img src="./images/banner00.png" alt="advent calender" srcset="">
       </a>
+      <a href="https://鍋.net" class="banners" style="margin-bottom: 10px;" target="_blank">
+        <img src="./images/banner_nabe.png" alt="鍋.net" srcset="">
+      </a>
       <a href="./video.php?url=talk" class="banners">
         <img src="./images/banner00.svg" alt="ライトニングトーク" srcset="">
       </a>
