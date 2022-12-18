@@ -23,7 +23,7 @@
 
 	<style>
 	@keyframes blinking {
-    0% {transform: translate(0px, 0px) rotateZ(0deg);opacity:0;}
+    0% {transform: translate(0px, 0px) rotateZ(0deg);opacity:1;}
     25% {transform: translate(2px, 2px) rotateZ(1deg)}
     50% {transform: translate(0px, 2px) rotateZ(0deg)}
     75% {transform: translate(2px, 0px) rotateZ(-1deg)}
