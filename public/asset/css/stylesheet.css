@@ -45,3 +45,9 @@ a:visited {
   color: red;
   text-align: center;
 }
+
+#space{
+  font-size: large;
+  color: aliceblue;
+  font-weight: bolder;
+}

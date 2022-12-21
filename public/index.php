@@ -67,17 +67,23 @@
       <a href="./adventcalender22.html" class="banners" style="margin-bottom: 10px;">
         <img src="./images/banner00.png" alt="advent calender" srcset="">
       </a>
-      <a href="https://鍋.net" class="banners" style="margin-bottom: 10px;" target="_blank">
-        <img src="./images/banner_nabe.png" alt="鍋.net" srcset="">
-      </a>
       <a href="./video.php?url=talk" class="banners">
         <img src="./images/banner00.svg" alt="ライトニングトーク" srcset="">
       </a>
       <div class="time"><p>次回は１２月２３日（金）19時半くらいから（10時終了予定）</p></div>
       <!-- <iframe src="https://xn--u9jj8904a.xn--kckbt6t.net/" frameborder="0"></iframe> -->
     </div>
+    <div id="space">
+      <a href="https://event.spacemarket.com/events/ne_lbdr0rc6zn3w5?utm_campaign=event-ne_lbdr0rc6zn3w5&utm_source=web&utm_medium=share" target="_blank" rel="noopener noreferrer">
+        場所はこちら
+      </a>
+    </div>
     <a href="https://forms.gle/ctp9MFRXRNVW82Zt9">
         <blink><p style="color:#fff;font-waight:bold;font-size:3em;">アンケート</p></blink>
+      </a>
+
+      <a href="https://鍋.net" class="banners" style="margin-bottom: 10px;" target="_blank">
+        <img src="./images/banner_nabe.png" alt="鍋.net" srcset="">
       </a>
   </div>
   <div id="contact">
