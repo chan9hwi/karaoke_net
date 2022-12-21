@@ -39,7 +39,7 @@
   font-size: larger;
 }
 
-#message{
+#message, #banners{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,9 +82,12 @@
         <blink><p style="color:#fff;font-waight:bold;font-size:3em;">アンケート</p></blink>
       </a>
 
+    <div id="banners">
       <a href="https://鍋.net" class="banners" style="margin-bottom: 10px;" target="_blank">
         <img src="./images/banner_nabe.png" alt="鍋.net" srcset="">
       </a>
+    </div>
+
   </div>
   <div id="contact">
     <a href="https://lin.ee/qfnCAXm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
