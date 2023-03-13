@@ -17,37 +17,78 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
 
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
 
-	<style>
-	@keyframes blinking {
-    0% {transform: translate(0px, 0px) rotateZ(0deg);opacity:1;}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg); opacity:1;}
-}
-.time { 
-	animation: blinking 0.5s ease-in-out infinite alternate;
-}
+  <style>
+    @keyframes blinking {
+      0% {
+        transform: translate(0px, 0px) rotateZ(0deg);
+        opacity: 1;
+      }
 
-.time p{
-  color:red;
-  text-align: center;
-  font-size: larger;
-}
+      25% {
+        transform: translate(2px, 2px) rotateZ(1deg)
+      }
 
-#message, #banners{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
-}
+      50% {
+        transform: translate(0px, 2px) rotateZ(0deg)
+      }
 
-	</style>
+      75% {
+        transform: translate(2px, 0px) rotateZ(-1deg)
+      }
+
+      100% {
+        transform: translate(0px, 0px) rotateZ(0deg);
+        opacity: 1;
+      }
+    }
+
+    .time {
+      animation: blinking 0.5s ease-in-out infinite alternate;
+    }
+
+    .time p {
+      color: red;
+      text-align: center;
+      font-size: larger;
+    }
+
+    #message,
+    #banners {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      flex-wrap: nowrap;
+    }
+
+    #hanami {
+      background-color: rgba(255, 255, 255, 1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      flex-wrap: nowrap;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    #hanami img {
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+
+    #hanami span {
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 10px;
+    }
+  </style>
 </head>
 
 <link href="./asset/css/stylesheet.css" rel="stylesheet" type="text/css" />
@@ -60,27 +101,38 @@
     <div class="form">
       <form action="video.php" method="get">
         <label for="url">合言葉</label>
-        <input type = “text” name =url>
+        <input type=“text” name=url>
       </form>
     </div>
     <div id="message">
-      <a href="./adventcalender22.html" class="banners" style="margin-bottom: 10px;">
-        <img src="./images/banner00.png" alt="advent calender" srcset="">
-      </a>
       <a href="./video.php?url=talk" class="banners">
         <img src="./images/banner00.svg" alt="ライトニングトーク" srcset="">
       </a>
-      <div class="time"><p>次回は１２月２３日（金）19時半くらいから（10時終了予定）</p></div>
+      <!-- <div class="time"><p>次回は１２月２３日（金）19時半くらいから（10時終了予定）</p></div> -->
       <!-- <iframe src="https://xn--u9jj8904a.xn--kckbt6t.net/" frameborder="0"></iframe> -->
     </div>
     <div id="space">
-      <a href="https://event.spacemarket.com/events/ne_lbdr0rc6zn3w5?utm_campaign=event-ne_lbdr0rc6zn3w5&utm_source=web&utm_medium=share" target="_blank" rel="noopener noreferrer">
+      <a href="https://goo.gl/maps/q2BdtTBwco8wxjNu7" target="_blank" rel="noopener noreferrer">
         場所はこちら
       </a>
     </div>
-    <a href="https://forms.gle/ctp9MFRXRNVW82Zt9">
-        <blink><p style="color:#fff;font-waight:bold;font-size:3em;">アンケート</p></blink>
+
+    <div id="hanami">
+      <img src="./asset/images/sakura_sq.png" alt="ライトニングトーク" srcset="" width="300px">
+      <span>
+        22年度最後のライトニングトークサークルは代々木公園で開催します！
+        <br>
+        お花見を楽しみながら、みんなでライトニングトークをしましょう！
+        <br>
+        iPadで発表しようと考えております。
+        <br>
+        発表準備のもくもく会もしますのでぜひご参加ください！！！
+      </span>
+      <a href="https://forms.gle/pJ63gMCKL7FcavnSA" target="_blank">
+        <p style="color:red;font-waight:bold;font-size:3em;">アンケート</p>
       </a>
+    </div>
+
 
     <div id="banners">
       <a href="https://鍋.net" class="banners" style="margin-bottom: 10px;" target="_blank">
