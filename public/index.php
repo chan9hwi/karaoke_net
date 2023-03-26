@@ -108,8 +108,6 @@
       <a href="./video.php?url=talk" class="banners">
         <img src="./images/banner00.svg" alt="ライトニングトーク" srcset="">
       </a>
-      <!-- <div class="time"><p>次回は１２月２３日（金）19時半くらいから（10時終了予定）</p></div> -->
-      <!-- <iframe src="https://xn--u9jj8904a.xn--kckbt6t.net/" frameborder="0"></iframe> -->
     </div>
     <div id="space">
       <a href="https://goo.gl/maps/q2BdtTBwco8wxjNu7" target="_blank" rel="noopener noreferrer">
@@ -120,7 +118,7 @@
     <div id="hanami">
       <img src="./asset/images/sakura_sq.png" alt="ライトニングトーク" srcset="" width="300px">
       <span>
-        22年度最後のライトニングトークサークルは代々木公園で開催します！
+        23年度最初のライトニングトークサークルは代々木公園で開催します！
         <br>
         お花見を楽しみながら、みんなでライトニングトークをしましょう！
         <br>
@@ -128,11 +126,18 @@
         <br>
         発表準備のもくもく会もしますのでぜひご参加ください！！！
       </span>
-      <a href="https://forms.gle/pJ63gMCKL7FcavnSA" target="_blank">
-        <p style="color:red;font-waight:bold;font-size:3em;">アンケート</p>
-      </a>
+      <span>
+        <p>日時：4/1(土) 13:00~</p>
+        <p>
+          <a href="https://goo.gl/maps/q2BdtTBwco8wxjNu7" target="_blank" rel="noopener noreferrer">場所：代々木公園</a>
+        </p>
+        <a href="https://forms.gle/R8Q2cMEFqKSpY9hi6" target="_blank">
+          <p style="color:red;font-waight:bold;font-size:3em;">アンケート</p>
+        </a>
+        <a href="./bbs.php" target="_blank">
+          <p style="color:red;font-waight:bold;font-size:3em;">掲示板</p>
+      </span>
     </div>
-
 
     <div id="banners">
       <a href="https://鍋.net" class="banners" style="margin-bottom: 10px;" target="_blank">
