@@ -115,6 +115,19 @@
       </a>
     </div>
 
+    <div>
+      <span>
+        22年度最後のライトニングトークサークルは椎名町で開催します！
+        <br>
+        来週のお花見に向けてもくもく会しつつ根も冬最後の鍋をしましょう！
+      </span>
+      <span>
+        <p>日時：3/25(日) 13:00~</p>
+        <a href="./bbs_sub.php" target="_blank">
+          <p style="color:red;font-waight:bold;font-size:3em;">連絡掲示板</p>
+      </span>
+    </div>
+
     <div id="hanami">
       <img src="./asset/images/sakura_sq.png" alt="ライトニングトーク" srcset="" width="300px">
       <span>
