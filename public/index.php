@@ -115,32 +115,6 @@
       </a>
     </div>
 
-    <div style="color:white;padding:10px;margin:10px;">
-      <span>
-        <h2>現在の代々木公園</h2>
-        <br>
-        11時頃に更新予定です。
-        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
-        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
-        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
-        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
-      </span>
-    </div>
-    <div style="color:white;padding:10px;margin:10px;">
-      <span>
-        <h2>22年度最後のライトニングトークサークルは椎名町で開催します！</h2>
-        <br>
-        来週のお花見に向けてもくもく会しつつのこ冬最後の鍋をしましょう！
-        <p style="text-align:center;">日時：3/25(日) 13:00~</p>
-        <p style="text-align:center;">場所：<a href="https://goo.gl/maps/182fmAbgTFn1o7AM8">椎名町</a>・<a href="./video.php?url=talk">オンライン</a></p>
-      </span>
-      <span style="text-align:center;">
-        <a href="./bbs_sub.php" target="_blank">
-          <p style="color:red;font-waight:bold;font-size:3em;">連絡掲示板</p>
-        </a>
-      </span>
-    </div>
-
     <div id="hanami">
       <img src="./asset/images/sakura_sq.png" alt="ライトニングトーク" srcset="" width="300px">
       <span>
@@ -149,11 +123,9 @@
         お花見を楽しみながら、みんなでライトニングトークをしましょう！
         <br>
         iPadで発表しようと考えております。
-        <br>
-        発表準備のもくもく会もしますのでぜひご参加ください！！！
       </span>
       <span>
-        <p>日時：4/1(土) 13:00~</p>
+        <p>日時：4月の土曜日（アンケート実施中）</p>
         <p>
           <a href="https://goo.gl/maps/q2BdtTBwco8wxjNu7" target="_blank" rel="noopener noreferrer">場所：代々木公園</a>
         </p>
