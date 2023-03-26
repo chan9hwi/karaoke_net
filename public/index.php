@@ -115,16 +115,18 @@
       </a>
     </div>
 
-    <div>
+    <div style="color:white;padding:10px;margin:10px;">
       <span>
-        22年度最後のライトニングトークサークルは椎名町で開催します！
+        <h2>22年度最後のライトニングトークサークルは椎名町で開催します！</h2>
         <br>
-        来週のお花見に向けてもくもく会しつつ根も冬最後の鍋をしましょう！
+        来週のお花見に向けてもくもく会しつつのこ冬最後の鍋をしましょう！
+        <p style="text-align:center;">日時：3/25(日) 13:00~</p>
+        <p style="text-align:center;">場所：<a href="https://goo.gl/maps/182fmAbgTFn1o7AM8">椎名町</a>・<a href="./video.php?url=talk">オンライン</a></p>
       </span>
-      <span>
-        <p>日時：3/25(日) 13:00~</p>
+      <span style="text-align:center;">
         <a href="./bbs_sub.php" target="_blank">
           <p style="color:red;font-waight:bold;font-size:3em;">連絡掲示板</p>
+        </a>
       </span>
     </div>
 
