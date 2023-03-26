@@ -10,8 +10,8 @@
     <hr>
     <h2>投稿一覧</h2>
     <?php
-    $filename = "messages.txt"; // 投稿を保存するファイル名
-    $image_dir = "images/"; // 画像を保存するディレクトリ
+    $filename = "bbssubmessages.txt"; // 投稿を保存するファイル名
+    $image_dir = "bbsimages/"; // 画像を保存するディレクトリ
     if (isset($_POST['name']) && isset($_POST['message'])) { // フォームが送信された場合
         $name = $_POST['name'];
         $message = $_POST['message'];
@@ -62,8 +62,8 @@
         <input type="text" name="name" id="name" required><br>
         <label for="message">コメント（必須）：</label>
         <input type="text" name="message" id="message" required><br>
-        <label for="image">画像：</label>
-        <input type="file" name="image" id="image"><br>
+        <!-- <label for="image">画像：</label>
+        <input type="file" name="image" id="image"><br> -->
         <input type="submit" value="投稿する">
     </form>
 </body>

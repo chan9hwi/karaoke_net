@@ -117,6 +117,17 @@
 
     <div style="color:white;padding:10px;margin:10px;">
       <span>
+        <h2>現在の代々木公園</h2>
+        <br>
+        11時頃に更新予定です。
+        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
+        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
+        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
+        <p style="text-align:center;"><img src="" alt="" srcset=""></p>
+      </span>
+    </div>
+    <div style="color:white;padding:10px;margin:10px;">
+      <span>
         <h2>22年度最後のライトニングトークサークルは椎名町で開催します！</h2>
         <br>
         来週のお花見に向けてもくもく会しつつのこ冬最後の鍋をしましょう！
